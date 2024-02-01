@@ -17,9 +17,9 @@ const GradientBGIcon: React.FC<GradientBGIconProps> = ({name, color, size}) => {
         start={{x: 0, y: 0}}
         end={{x: 1, y: 1}}
         colors={[COLORS.primaryDarkGreyHex, COLORS.primaryBlackHex]}
-        style={styles.LinearGradientBG}
-      />
-      <CustomIcon name={name} color={color} size={size} />
+        style={styles.LinearGradientBG}>
+        <CustomIcon name={name} color={color} size={size} />
+      </LinearGradient>
     </View>
   );
 };

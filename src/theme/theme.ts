@@ -87,6 +87,7 @@ export const FONTFAMILY: FontFamily = {
 };
 
 interface FontSize {
+  [x: string]: number;
   size_8: number;
   size_10: number;
   size_12: number;
@@ -97,6 +98,7 @@ interface FontSize {
   size_24: number;
   size_28: number;
   size_30: number;
+  size_36: number;
 }
 
 export const FONTSIZE: FontSize = {

@@ -12,7 +12,7 @@ export const useStore = create(
       CoffeeList: CoffeeData,
       BeanList: BeansData,
       CartPrice: 0,
-      FavoritetestList: [],
+      FavoritesList: [],
       CartList: [],
       OrderHistoryList: [],
     }),
