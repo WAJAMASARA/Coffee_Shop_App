@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/react-native-coffee-shop.git
+git clone https://github.com/WAJAMASARA/react-native-coffee-shop.git
 ```
 2. Navigate to the project directory
 ```bash
@@ -50,6 +50,8 @@ npx react-native start
 npx react-native run-android
 # or
 npx react-native run-ios
+# or
+npm run start
 ```
 ## Folder Structure
 
@@ -68,6 +70,10 @@ npx react-native run-ios
 - ⚛️ react-native
 - ⚛️ react-navigation
 - ⚛️ react-native-elements (optional for UI components)
+- ⚛️ lottie-react-native
+- ⚛️ react-native-linear-gradient
+- ⚛️ react-native-vector-icons
+- ⚛️ immer
 ```
 ## Contributing
 Contributions are welcome!
