@@ -62,7 +62,6 @@ const HomeScreen = () => {
 
   const tabBarHeight = useBottomTabBarHeight();
 
-  
   return (
     <View style={styles.ScreenContainer}>
       <StatusBar backgroundColor={COLORS.secondaryDarkGreyHex} />
